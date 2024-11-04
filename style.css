@@ -23,7 +23,7 @@
     width: 200px;
     height: 200px;
     background-color: #4CAF50;
-    margin: 0 auto;
+    margin-left: auto; margin-right: auto
 }
 
 .container-2 {
@@ -54,6 +54,39 @@
     height: 200px;
     background-color: #FF5722;
     margin: 10px;
+}
+
+.position-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: transparent;
+    border: 2px solid;
+}
+
+.red {
+    border-color: red;
+    top: 50px;
+    left: 50px;
+}
+
+.blue {
+    border-color: blue;
+    top: 110px;
+    left: 110px;
+}
+
+.green {
+    border-color: green;
+    top: 170px;
+    left: 170px;
 }
 
 .fixed-element {
